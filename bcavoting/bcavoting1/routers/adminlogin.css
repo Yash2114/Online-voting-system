@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins',sans-serif; */
+    
+}
+ body{
+     height: 100%;
+    width: 100%; 
+     display: grid;
+     justify-content: center;
+    /* background-image: url('https://th.bing.com/th/id/OIP.-ZNda2x-ZqZHNYb2dNUD7gHaEo?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'); */
+
+    /* background-repeat: no-repeat; */
+    /* object-fit: cover; */
+    background-color: rgb(34, 31, 66);
+    
+    
+    place-items: center;
+
+}
+.card{
+
+    height: 450px;
+    width: 450px;
+    background-color: rgb(198, 194, 194);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    
+   
+}
+#i1{
+    width: 100%;
+    height: 40px;
+    background-color: #dadada;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin-top: 40px;
+    border: none;
+}
+
+
+#i2{
+    width: 100%;
+    height: 40px;
+    background-color: #dadada;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    margin-top: 29px;
+    border: none;
+}
+#h3{
+    margin-top: 25px;
+    color: gray;
+}
+#h1{
+    color:black ;
+    font-weight: 1200;
+    
+}
+#loginbutton{
+    padding: 10px 40px;
+    font-size: 0.95rem;
+    background-color: cadetblue;
+    font-weight: 800;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 50px;
+}
+#loginbutton:hover{
+    background-color:rgb(176, 223, 224);
+    border: 1px solid black;
+}
+
+
+#drop{
+    height: 30px;
+    font-weight: 800;
+}
+#h1 a{
+    color: crimson;
+}
+.new a{
+    text-decoration: none;
+    size: 10px;
+}
+
+
+
+

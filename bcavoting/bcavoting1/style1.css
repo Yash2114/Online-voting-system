@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 20px;
+        
+   
+   
+}
+.nav img{
+    height: 90px;
+    
+    
+}
+.nav-part1{
+    height: 10px;
+    gap: 30px;
+    display: flex;
+    gap: 55pxpx;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+.nav-part1:hover{
+    color: blue;
+    font-size: 1.05rrem;
+}
+.nav-part2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+    
+    
+}
+.nav-part2 button{
+    height: 50px;
+    background-color: white;
+    color: black;
+    /* border-radius: 5px; */
+    font-weight: 600;
+    padding: 18px 25px;
+    border: none;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-part2 button:hover{
+    border:2px solid rgb(34,31,66);
+}
+.main h1{
+    margin-top: 30px;
+    font-size: 120px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.main h1 span{
+    background-color: brown;
+    font-size: 40px;
+    padding: 20px 25px;
+    border-radius: 50px;
+    margin: 0px 30px;
+}
+
+#img1{
+    height: 200px;
+    
+    border-radius: 5px;
+    bottom: 9%;
+    position: absolute;
+    left:6%;
+}
+.container{
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 500px;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+
+    
+    
+}
+
+.right{
+    height: 500px;
+    width: 40%;
+    background-color: rgb(0, 0, 0);
+}
+.right img{
+    height: 300px;
+    width: 100%;
+}
